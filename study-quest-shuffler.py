@@ -23,6 +23,8 @@ score = 0
 #output statements
 print("*** WELCOME TO STUDY QUEST SHUFFLER ***")
 print("\n-----\nHow it works: ")
+
+# ЛУЧШЕ ПИСАТЬ КАЖДУЮ СТРОЧКУ В ОТДЕЛЬНЫХ КАВЫЧКАХ, А РАЗДЕЛИТЬ ИХ С ПОМОЩЬЮ sep = \n
 print("Study Quest Shuffler is a great tool for students at any level.\nYou have complete control of the questions, answers and even the number of questions!\nThe program will display the questions at random to test your knowledge.\nYou'll get your score at the end of the quest. Happy studying!\n-----")
 
 #prompts to start or exit the program
@@ -35,6 +37,7 @@ elif(start.lower() == "no"):
     print("\nSee you next time!")
     exit()
 else:
+    # ВМЕСТО exit() ЛУЧШЕ ПЕРЕЗАПУСКАТЬ start program
     print("\nInvalid entry.")
     exit()
 
